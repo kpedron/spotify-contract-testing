@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "href": {"type": "string"},
+    "items": {
+      "type": "array",
+      "items":
+        {
+          "type": "object",
+          "properties": {
+            "collaborative": {"type":  "boolean"},
+            "description": {"type": "string"},
+            "external_urls": {
+
+              "type": "object",
+              "properties": {
+                "spotify": {"type": "string"}
+              },
+              "additionalProperties": false
+            },
+            "href": {"type": "string"},
+            "id": {"type": "string"},
+            "images": {"type": "array"},
+            "name": {"type": "string"},
+            "owner": {
+              "type": "object",
+              "properties": {
+                "display_name": {"type": "string"},
+                "external_urls": {
+                  "type": "object",
+                  "properties": {
+                    "spotify": {"type": "string"}
+                  },
+                  "additionalProperties": false
+                },
+                "href": {"type": "string"},
+                "id": {"type": "string"},
+                "type": {"type": "string"},
+                "uri": {"type": "string"}
+              },
+              "additionalProperties": false
+            },
+            "primary_color": {"type": "null"},
+            "public": {"type": "boolean"},
+            "snapshot_id": {"type": "string"},
+            "tracks": {
+              "type": "object",
+              "properties": {
+                "href": {"type": "string"},
+                "total": {"type": "number"}
+              },
+              "additionalProperties": false
+            },
+            "type": {"type": "string"},
+            "uri": {"type": "string"}
+            }
+        }
+    },
+    "limit": {"type": "number"},
+    "next": {"type": "string"},
+    "offset": {"type": "number"},
+    "previous": {"type": "null"},
+    "total": {"type": "number"}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,7 @@
+{
+  "client_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+  "client_secret": "yyyyyyyyyyyyyyyyyyyyyyyyyyyy",
+  "callback_uri": "https://www.postman.com/oauth2/callback",
+  "scope": "playlist-modify-public playlist-modify-private playlist-read-collaborative",
+  "token": {}
+}
